@@ -1,0 +1,32 @@
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: linear-gradient(270deg, #1c9b7b, #1c9a9b, #1c7e9b, #1c5c9b, #1c359b, #351c9b, #621c9b, #7e1c9b, #9a1c9b, #9b1c6f, #9b1c3d);
+	background-size: 600% 600%;
+-webkit-animation: Gradient 90s ease infinite;
+	-moz-animation: Gradient 90s ease infinite;
+	animation: Gradient 90s ease infinite;
+
+  font-family: 'Lato', sans-serif;
+}
+
+    @-webkit-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
