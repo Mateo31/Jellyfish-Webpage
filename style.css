@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-	background: linear-gradient(270deg, #1c9b7b, #1c9a9b, #1c7e9b, #1c5c9b, #1c359b, #351c9b, #621c9b, #7e1c9b, #9a1c9b, #9b1c6f, #9b1c3d);
+	background: linear-gradient(270deg, #0ac4fb, #11a1cc, #117796, #0f556b, #042d3a, #031c23, #031c23, #042d3a, #0f556b, #117796, #11a1cc);
 	background-size: 600% 600%;
 -webkit-animation: Gradient 90s ease infinite;
 	-moz-animation: Gradient 90s ease infinite;
@@ -30,3 +30,143 @@ body {
 		50%{background-position:100% 50%}
 		100%{background-position:0% 50%}
 	}
+
+	.pinky {
+  position: relative;
+	left: 50px;
+	top: 200px;
+  width: 100px;
+  height: 57.74px;
+  margin: 28.87px 0;
+  background-image: url(http://thefw.com/files/2013/07/tumblr_mjkiig6kmc1s4y3uwo1_500.gif);
+  background-size: auto 115.4701px;
+  background-position: center;
+  box-shadow: 0 0 150px rgba(0,0,0,0.6);
+}
+
+.pinkyhextop,
+.pinkyhexbot {
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 14.64px;
+  box-shadow: 0 0 150px rgba(0,0,0,0.6);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 100.0000px;
+  height: 57.73502691896258px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -35.3553px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -35.3553px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 100.0000px;
+  height: 57.7350px;
+  z-index: 2;
+  background: inherit;
+}
+
+.hexagon {
+  position: relative;
+  width: 100px;
+  height: 57.74px;
+  margin: 28.87px 0;
+  background-image: url(http://thefw.com/files/2013/07/Striped.gif);
+  background-size: auto 115.4701px;
+  background-position: center;
+  box-shadow: 0 0 150px rgba(0,0,0,0.6);
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 14.64px;
+  box-shadow: 0 0 150px rgba(0,0,0,0.6);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 100.0000px;
+  height: 57.73502691896258px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -35.3553px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -35.3553px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 100.0000px;
+  height: 57.7350px;
+  z-index: 2;
+  background: inherit;
+}
