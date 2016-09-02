@@ -31,142 +31,97 @@ body {
 		100%{background-position:0% 50%}
 	}
 
-	.pinky {
-  position: relative;
-	left: 50px;
-	top: 200px;
-  width: 100px;
-  height: 57.74px;
-  margin: 28.87px 0;
-  background-image: url(http://thefw.com/files/2013/07/tumblr_mjkiig6kmc1s4y3uwo1_500.gif);
-  background-size: auto 115.4701px;
-  background-position: center;
-  box-shadow: 0 0 150px rgba(0,0,0,0.6);
+	.hexagon {
+	  position: relative;
+	  width: 100px;
+	  height: 57.74px;
+	  margin: 28.87px 0;
+	  background-image: url(http://thefw.com/files/2013/07/tumblr_mjkiig6kmc1s4y3uwo1_500.gif);
+	  background-size: auto 115.4701px;
+	  background-position: center;
+	  box-shadow: 0 0 150px rgba(0,0,0,0.6);
+	}
+
+	.hexTop,
+	.hexBottom {
+	  position: absolute;
+	  z-index: 1;
+	  width: 70.71px;
+	  height: 70.71px;
+	  overflow: hidden;
+	  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+	  -ms-transform: scaleY(0.5774) rotate(-45deg);
+	  transform: scaleY(0.5774) rotate(-45deg);
+	  background: inherit;
+	  left: 14.64px;
+	}
+
+	/*counter transform the bg image on the caps*/
+	.hexTop:after,
+	.hexBottom:after {
+	  content: "";
+	  position: absolute;
+	  width: 100.0000px;
+	  height: 57.73502691896258px;
+	  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+	  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+	  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+	  -webkit-transform-origin: 0 0;
+	  -ms-transform-origin: 0 0;
+	  transform-origin: 0 0;
+	  background: inherit;
+	}
+
+	.hexTop {
+	  top: -35.3553px;
+	}
+
+	.hexTop:after {
+	  background-position: center top;
+	}
+
+	.hexBottom {
+	  bottom: -35.3553px;
+	}
+
+	.hexBottom:after {
+	  background-position: center bottom;
+	}
+
+	.hexagon:after {
+	  content: "";
+	  position: absolute;
+	  top: 0.0000px;
+	  left: 0;
+	  width: 100.0000px;
+	  height: 57.7350px;
+	  z-index: 2;
+	  background: inherit;
+	}
+	#pinkyhex{
+		background-image: url(http://thefw.com/files/2013/07/tumblr_mjkiig6kmc1s4y3uwo1_500.gif);
+	}
+
+#orangeboyhex{
+	top: 5px;
+	left: 52px;
+	background-image: url(http://thefw.com/files/2013/07/Striped.gif);
 }
 
-.pinkyhextop,
-.pinkyhexbot {
-  position: absolute;
-  z-index: 1;
-  width: 70.71px;
-  height: 70.71px;
-  overflow: hidden;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background: inherit;
-  left: 14.64px;
-  box-shadow: 0 0 150px rgba(0,0,0,0.6);
+#stripeyhex{
+	top: 10px;
+	left: 104px;
+	background-image: url(http://thefw.com/files/2013/07/tumblr_mgu7s7kjlu1qjhxrjo1_500.gif);
 }
 
-/*counter transform the bg image on the caps*/
-.hexTop:after,
-.hexBottom:after {
-  content: "";
-  position: absolute;
-  width: 100.0000px;
-  height: 57.73502691896258px;
-  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
-  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
-  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
-  -webkit-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-  background: inherit;
+#alienboyhex{
+	top: 16px;
+	left: 52px;
+	background-image: url(http://thefw.com/files/2013/07/tumblr_mpt9ddHDRx1s9816mo1_500.gif);
 }
 
-.hexTop {
-  top: -35.3553px;
-}
-
-.hexTop:after {
-  background-position: center top;
-}
-
-.hexBottom {
-  bottom: -35.3553px;
-}
-
-.hexBottom:after {
-  background-position: center bottom;
-}
-
-.hexagon:after {
-  content: "";
-  position: absolute;
-  top: 0.0000px;
-  left: 0;
-  width: 100.0000px;
-  height: 57.7350px;
-  z-index: 2;
-  background: inherit;
-}
-
-.hexagon {
-  position: relative;
-  width: 100px;
-  height: 57.74px;
-  margin: 28.87px 0;
-  background-image: url(http://thefw.com/files/2013/07/Striped.gif);
-  background-size: auto 115.4701px;
-  background-position: center;
-  box-shadow: 0 0 150px rgba(0,0,0,0.6);
-}
-
-.hexTop,
-.hexBottom {
-  position: absolute;
-  z-index: 1;
-  width: 70.71px;
-  height: 70.71px;
-  overflow: hidden;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background: inherit;
-  left: 14.64px;
-  box-shadow: 0 0 150px rgba(0,0,0,0.6);
-}
-
-/*counter transform the bg image on the caps*/
-.hexTop:after,
-.hexBottom:after {
-  content: "";
-  position: absolute;
-  width: 100.0000px;
-  height: 57.73502691896258px;
-  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
-  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
-  transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
-  -webkit-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-  background: inherit;
-}
-
-.hexTop {
-  top: -35.3553px;
-}
-
-.hexTop:after {
-  background-position: center top;
-}
-
-.hexBottom {
-  bottom: -35.3553px;
-}
-
-.hexBottom:after {
-  background-position: center bottom;
-}
-
-.hexagon:after {
-  content: "";
-  position: absolute;
-  top: 0.0000px;
-  left: 0;
-  width: 100.0000px;
-  height: 57.7350px;
-  z-index: 2;
-  background: inherit;
+#moonerhex{
+	top: -71px;
+	left: 158px;
+	background-image: url(http://thefw.com/files/2013/07/tumblr_m99ff8R12c1rdt98to1_500.gif);
 }
