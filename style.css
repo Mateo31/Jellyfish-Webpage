@@ -98,30 +98,32 @@ body {
 	  z-index: 2;
 	  background: inherit;
 	}
+
 	#pinkyhex{
+		top: 80px;
 		background-image: url(http://thefw.com/files/2013/07/tumblr_mjkiig6kmc1s4y3uwo1_500.gif);
 	}
 
 #orangeboyhex{
-	top: 5px;
+	top: 85px;
 	left: 52px;
 	background-image: url(http://thefw.com/files/2013/07/Striped.gif);
 }
 
 #stripeyhex{
-	top: 10px;
+	top: 90px;
 	left: 104px;
 	background-image: url(http://thefw.com/files/2013/07/tumblr_mgu7s7kjlu1qjhxrjo1_500.gif);
 }
 
 #alienboyhex{
-	top: 16px;
+	top: 96px;
 	left: 52px;
 	background-image: url(http://thefw.com/files/2013/07/tumblr_mpt9ddHDRx1s9816mo1_500.gif);
 }
 
 #moonerhex{
-	top: -71px;
-	left: 158px;
+	top: 11px;
+	left: 156.5px;
 	background-image: url(http://thefw.com/files/2013/07/tumblr_m99ff8R12c1rdt98to1_500.gif);
 }
