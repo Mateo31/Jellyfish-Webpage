@@ -1,7 +1,34 @@
 body {
   font-family: 'Lato', sans-serif;
+  background-image: url("http://blog.hdwallsource.com/wp-content/uploads/2014/11/gradient-wallpaper-26050-26735-hd-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
 
 #navbar{
 	text-align: center;
 }
+
+#barr{
+  display: block;
+  margin: 0 auto;
+}
+
+
+#b{
+  padding-right: 30px;
+}
+
+#i{
+  padding-left: 30px;
+}
+
+#mydood{
+  font-size: 16px;
+  align-content: center;
+}
+
+a {font-size: 25px}
