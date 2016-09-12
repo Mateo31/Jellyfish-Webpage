@@ -15,20 +15,28 @@ body {
 #barr{
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 
 #b{
   padding-right: 30px;
+  color: white;
+
+}
+
+#o{
+  color: white;
 }
 
 #i{
   padding-left: 30px;
+  color: white;
 }
 
 #mydood{
   font-size: 16px;
-  align-content: center;
+  color: white;
 }
 
 a {font-size: 25px}
