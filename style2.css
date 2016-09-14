@@ -40,3 +40,98 @@ body {
 }
 
 a {font-size: 25px}
+
+.hexagon {
+  position: relative;
+  width: 150px;
+  height: 86.60px;
+  margin: 43.30px 0;
+  background-image: url(http://cdn.paper4pc.com/images/jellyfish-underwater-ocean-sea-bokeh-jelly-27-wallpaper-1.jpg);
+  background-size: auto 173.2051px;
+  background-position: center;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 21.97px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 150.0000px;
+  height: 86.60254037844388px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -53.0330px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -53.0330px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 150.0000px;
+  height: 86.6025px;
+  z-index: 2;
+  background: inherit;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+#PUrpel{
+  left: 20px;
+  top: 40px;
+  background-image: url(http://thefw.com/files/2013/07/tumblr_m6p6o5xuxh1qjhxrjo1_500.gif);
+}
+
+#NOpls{
+  left: 97.5px;
+  top: 45px;
+  background-image: url(http://thefw.com/files/2013/07/tumblr_mgu7s7kjlu1qjhxrjo1_500.gif);
+}
+
+#Canonbal{
+  left: 175px;
+  top: -219px;
+  background-image: url(http://jellieszone.com/wordpress/wp-content/uploads/wow-slider-plugin/6/images/purplestripe_jelly.jpg);
+}
+
+#vegen{
+  left: 330px;
+  top: -350px;
+  background-image: url(http://1.bp.blogspot.com/-jy5jLHH1A_w/UKt4EB3Mp3I/AAAAAAAAFH4/UAzP9Il8vBc/s1600/cauliflour_jellyfish.jpg);
+}
