@@ -135,3 +135,10 @@ a {font-size: 25px}
   top: -350px;
   background-image: url(http://1.bp.blogspot.com/-jy5jLHH1A_w/UKt4EB3Mp3I/AAAAAAAAFH4/UAzP9Il8vBc/s1600/cauliflour_jellyfish.jpg);
 }
+
+#logo{
+  z-index: -1;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
