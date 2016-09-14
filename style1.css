@@ -6,6 +6,7 @@ body {
       background-attachment: fixed;
       background-size: cover;
       color: white;
+      z-index: -3;
 }
 
 #navbar{
@@ -118,4 +119,11 @@ a {font-size: 25px}
   left: 251px;
   top: -85px;
   background-image: url(http://i.huffpost.com/gen/1567992/thumbs/o-SEA-NETTLE-900.jpg?2);
+}
+
+#logo{
+  z-index: -1;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 18px; 
 }
